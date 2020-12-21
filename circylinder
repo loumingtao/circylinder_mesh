@@ -1,0 +1,274 @@
+//+
+Point(1) = {0.525, 0.1, 0, 1.0};
+//+
+Point(2) = {0.5426776695, 0.1176776695, 0, 1.0};
+//+
+Point(3) = {0.5426776695, 0.08232233047, 0, 1.0};
+//+
+Point(4) = {0.5073223305, 0.08232233047, 0, 1.0};
+//+
+Point(5) = {0.5073223305, 0.1176776695, 0, 1.0};
+//+
+Point(6) = {0.5444454365, 0.1194454365, 0, 1.0};
+//+
+Point(7) = {0.5444454365, 0.08055456352, 0, 1.0};
+//+
+Point(8) = {0.5055545635, 0.08055456352, 0, 1.0};
+//+
+Point(9) = {0.5055545635, 0.1194454365, 0, 1.0};
+//+
+Point(10) = {0, 0, 0, 1.0};
+//+
+Point(11) = {0.3, 0, 0, 1.0};
+//+
+Point(13) = {0.8, 0, 0, 1.0};
+//+
+Point(14) = {0, 0.2, 0, 1.0};
+//+
+Point(15) = {0.3, 0.2, 0, 1.0};
+//+
+Point(17) = {0.8, 0.2, 0, 1.0};
+
+
+//+
+Circle(1) = {4, 1, 3};
+//+
+Circle(2) = {3, 1, 2};
+//+
+Circle(3) = {2, 1, 5};
+//+
+Circle(4) = {5, 1, 4};
+//+
+Circle(5) = {8, 1, 7};
+//+
+Circle(6) = {7, 1, 6};
+//+
+Circle(7) = {6, 1, 9};
+//+
+Circle(8) = {9, 1, 8};
+//+
+Point(18) = {0.3, 0.1194454365, 0, 1.0};
+//+
+Point(19) = {0.3, 0.08055456352, 0, 1.0};
+//+
+Point(20) = {0.8, 0.1194454365, 0, 1.0};
+//+
+Point(21) = {0.8, 0.08055456352, 0, 1.0};
+//+
+Point(22) = {0.5444454365, 0, 0, 1.0};
+//+
+Point(23) = {0.5055545635, 0, 0, 1.0};
+//+
+Point(24) = {0.5444454365, 0.2, 0, 1.0};
+//+
+Point(25) = {0.5055545635, 0.2, 0, 1.0};
+//+
+Line(19) = {18, 9};
+//+
+Line(20) = {19, 8};
+//+
+Line(21) = {8, 23};
+//+
+Line(22) = {7, 22};
+//+
+Line(23) = {6, 20};
+//+
+Line(24) = {21, 7};
+//+
+Line(25) = {9, 25};
+//+
+Line(26) = {6, 24};
+//+
+Line(27) = {9, 5};
+//+
+Line(28) = {8, 4};
+//+
+Line(29) = {3, 7};
+//+
+Line(30) = {6, 2};
+//+
+Line(32) = {10, 11};
+//+
+Line(33) = {11, 23};
+//+
+Line(34) = {23, 22};
+//+
+Line(35) = {22, 13};
+//+
+Line(36) = {13, 21};
+//+
+Line(37) = {21, 20};
+//+
+Line(38) = {20, 17};
+//+
+Line(39) = {17, 24};
+//+
+Line(40) = {24, 25};
+//+
+Line(41) = {25, 15};
+//+
+Line(42) = {15, 14};
+//+
+Line(43) = {15, 18};
+//+
+Line(44) = {18, 19};
+//+
+Line(45) = {19, 11};
+//+
+Curve Loop(2) = {41, 43, 19, 25};
+//+
+Plane Surface(2) = {2};
+//+
+Curve Loop(3) = {39, -26, 23, 38};
+//+
+Plane Surface(3) = {3};
+//+
+Curve Loop(4) = {24, 22, 35, 36};
+//+
+Plane Surface(4) = {4};
+//+
+Curve Loop(5) = {20, 21, -33, -45};
+//+
+Plane Surface(5) = {5};
+//+
+Curve Loop(6) = {19, 8, -20, -44};
+//+
+Plane Surface(6) = {6};
+//+
+Curve Loop(7) = {25, -40, -26, 7};
+//+
+Plane Surface(7) = {7};
+//+
+Curve Loop(8) = {23, -37, 24, 6};
+//+
+Plane Surface(8) = {8};
+//+
+Curve Loop(9) = {5, 22, -34, -21};
+//+
+Plane Surface(9) = {9};
+//+
+Curve Loop(10) = {8, 28, -4, -27};
+//+
+Plane Surface(10) = {10};
+//+
+Curve Loop(11) = {7, 27, -3, -30};
+//+
+Plane Surface(11) = {11};
+//+
+Curve Loop(12) = {30, -2, 29, 6};
+//+
+Plane Surface(12) = {12};
+//+
+Transfinite Curve {43,  38, 45, 36, 37, 44, 40, 7, 3, 1, 5, 34, 8, 4, 2, 6,21,22,25,26} = 30 Using Progression 1;
+//+
+Transfinite Curve {27, 28, 29, 30} = 30 Using Progression 1;
+//+
+Transfinite Curve {39, 23, 24, 35} = 120 Using Bump 0.1;
+//+
+Transfinite Curve {41, 19, 20, 33} = 40 Using Progression 1;
+//+
+Point(26) = {0, 0.1194454365, 0, 1.0};
+//+
+Point(27) = {0, 0.08055456352, 0, 1.0};
+
+
+//+
+Line(46) = {26, 18};
+//+
+Line(47) = {19, 27};
+//+
+Line(48) = {14, 26};
+//+
+Line(49) = {26, 27};
+//+
+Line(50) = {27, 10};
+//+
+Curve Loop(14) = {42, 48, 46, -43};
+//+
+Plane Surface(13) = {14};
+//+
+Curve Loop(15) = {49, -47, -44, -46};
+//+
+Plane Surface(14) = {15};
+//+
+Curve Loop(16) = {50, 32, -45, 47};
+//+
+Plane Surface(15) = {16};
+//+
+Transfinite Curve {48, 49, 50} = 30 Using Progression 1;
+//+
+Transfinite Curve {42, 46, 47, 32} = 60 Using Progression 1;
+//+
+Transfinite Surface {13};
+//+
+Transfinite Surface {14};
+//+
+Transfinite Surface {15};
+//+
+Transfinite Surface {2};
+//+
+Transfinite Surface {6};
+//+
+Transfinite Surface {5};
+//+
+Transfinite Surface {7};
+//+
+Transfinite Surface {9};
+//+
+Transfinite Surface {3};
+//+
+Transfinite Surface {8};
+//+
+Transfinite Surface {4};
+//+
+Transfinite Surface {11};
+//+
+Transfinite Surface {10};
+//+
+Transfinite Surface {12};
+//+
+Curve Loop(17) = {28, 1, 29, -5};
+//+
+Plane Surface(16) = {17};
+//+
+Transfinite Surface {16};
+//+
+Recombine Surface {13, 14, 15, 2, 6, 5, 7, 9, 3, 8, 4, 11, 10, 16, 12};
+//+
+Extrude {0, 0, 0.05} {
+  Surface{13}; Surface{14}; Surface{15}; Surface{2}; Surface{6}; Surface{5}; Surface{7}; Surface{9}; Surface{3}; Surface{8}; Surface{4}; Surface{11}; Surface{10}; Surface{16}; Surface{12}; Layers{35}; Recombine;
+}
+
+//+
+Physical Surface("cylinderwall") = {331, 309, 371, 349};
+//+
+Extrude {0, 0, 0.40} {
+  Surface{72}; Surface{94}; Surface{116}; Surface{138}; Surface{160}; Surface{182}; Surface{204}; Surface{226}; Surface{248}; Surface{270}; Surface{292}; Surface{314}; Surface{336}; Surface{358}; Surface{380}; Layers{80}; Recombine;
+}
+
+//+
+Physical Surface("cylinderwall") += {661, 639, 701,  679};
+//+
+Extrude {0, 0, 0.15} {
+  Surface{402}; Surface{424}; Surface{446}; Surface{468}; Surface{490}; Surface{512}; Surface{534}; Surface{556}; Surface{578}; Surface{600}; Surface{622}; Surface{644}; Surface{710}; Surface{688}; Surface{666}; Layers{20}; Recombine;
+}
+
+//+
+Physical Surface("cylinderwall") += {1035, 969, 987, 1009};
+//+
+Physical Surface("atmosphere") = {732, 754, 776};
+//+
+Physical Surface("lid") = {798, 820, 842, 864, 886, 908, 930, 952, 974, 996, 1040, 1018};
+//+
+Physical Surface("front") = {767, 837, 947, 881, 551, 617, 507, 437, 107, 177, 287, 221};
+//+
+Physical Surface("back") = {895, 785, 719, 389, 455, 565, 235, 125, 59, 855, 525, 195};
+
+//+
+Physical Surface("leftwall") = {723, 741, 763, 393, 411, 433, 63, 81, 103};
+//+
+Physical Surface("rightwall") = {951, 621, 291, 261, 247, 577, 591, 921, 907};
+//+
+Physical Surface("bottom") = {2, 13, 14, 15, 3, 8, 4, 5, 6, 7, 9, 11, 10, 16, 12};
+//+
+Physical Volume("air") = {31, 32, 33, 16, 18, 17, 1, 2, 3, 34, 35, 36, 19, 20, 21, 4, 5, 6, 37, 43, 42, 45, 44, 38, 22, 27, 28, 30, 29, 23, 7, 12, 13, 14, 15, 8, 11, 10, 9, 26, 25, 24, 41, 40, 39};
